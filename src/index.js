@@ -1,8 +1,8 @@
 import ReactChartCanvas from 'react-chart-canvas';
-import Funnel from './funnel';
+import Gauge from './gauge';
 
 const FunnelChart = (props) => {
-  return <ReactChartCanvas Chart={Funnel} {...props}/>;
+  return <ReactChartCanvas Chart={Gauge} {...props}/>;
 };
 
 export default FunnelChart;

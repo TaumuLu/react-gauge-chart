@@ -20,7 +20,7 @@ import {
 * }
 */
 
-export default class Funnel {
+export default class Gauge {
   constructor(props) {
     this.setValue(props);
   }
