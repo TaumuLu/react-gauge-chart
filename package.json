@@ -1,0 +1,38 @@
+{
+  "name": "react-gauge-chart",
+  "version": "0.1.0",
+  "description": "react component about gauge chart",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production babel -d lib/ src/ --copy-files"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "color-conversion-rgb": "^0.1.1",
+    "react-chart-canvas": "^0.1.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaumuLu/react-gauge-chart.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "gauge",
+    "ladder",
+    "chart"
+  ],
+  "author": "TaumuLu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TaumuLu/react-gauge-chart/issues"
+  },
+  "homepage": "https://github.com/TaumuLu/react-gauge-chart#readme"
+}
